@@ -1,0 +1,15 @@
+{
+  "name": "Molitio App",
+  "start_url": "http://blockstack-todos.appartisan.com",
+  "description": "A simple app to keep track of your tasks",
+  "icons": [{
+    "src": "http://blockstack-todos.appartisan.com/logo.png",
+    "sizes": "400x400",
+    "type": "image/png"
+  },
+  {
+    "src": "http://blockstack-todos.appartisan.com/avatar-placeholder.png",
+    "sizes": "400x400",
+    "type": "image/png"
+  }]
+}

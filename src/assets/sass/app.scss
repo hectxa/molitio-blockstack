@@ -1,0 +1,61 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,600,700");
+
+// Bootstrap
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+html, body, #app {
+  height: 100%;
+  background-color: #0b0c0c;
+}
+
+.avatar {
+  width: 30px;
+  float: right;
+  border-radius: 2px;
+}
+
+.logo-top {
+  width: 30px;
+  float: left;
+  margin-right: 5px;
+}
+
+.btn {
+  &.btn-default {
+    color: cyan;
+  }
+}
+
+.creds {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  text-align: right;
+}
+
+.list-group-item {
+  color: white;
+}
+
+.page-header {
+  margin-bottom: 0px;
+  font-size: 1.8rem;
+  padding-bottom: 12px;
+  border-bottom: 1px solid $gray-50;
+}
+
+.sign-out {
+  float: right;
+  padding-top: 8px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.user-info {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  color: $gray-300;
+}
